@@ -1,0 +1,136 @@
+@import url('https://fonts.cdnfonts.com/css/pokemon-solid');
+
+* {
+
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Pokemon Solid', sans-serif;
+
+}
+
+
+body {
+
+    text-align: center;
+    background: linear-gradient(to bottom, #ffa600c2, #FFE5B4);
+    min-height: 100vh;
+
+}
+
+main {
+
+    display: inline-block;
+    margin-bottom: 3%;
+    margin-left: 3%;
+    margin-right: 3%;
+    padding: 15px;
+    border: 2%;
+    position:relative;
+
+}
+
+.rotom {
+
+    width: 100%;
+    max-width: 450px;
+
+}
+
+.pokemon_image {
+
+    position: absolute;
+    top: 43%;
+    bottom: 49%;
+    left: 51.5%;
+    right: 2%;
+    transform: translate(-1%, 0);
+    height: 10%;
+    
+}
+
+.pokemon_data {
+
+    position: absolute;
+    font-weight: 1000;
+    font-size: clamp(13px, 2vw, 9px);
+    color:rgb(94, 93, 93);
+    top: 50%;
+    left: 48.5%;
+    transform: translate(-1%, 2%);
+
+}
+
+.pokemon_name {
+
+    color: rgb(0, 0, 0);
+    text-transform: capitalize;
+
+}
+
+.form {
+
+    position: absolute;
+    width: 60%;
+    top: 90%;
+    bottom: 1%;
+    right: 41.5%;
+    
+}
+
+.input_search {
+
+    width: 30%;
+    padding: 0.1%;
+    outline-color: rgb(248, 60, 60);
+    border: 1px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    color: rgb(0, 0, 0);
+    font-size: clamp(8px, 2vw, 1rem);
+    box-shadow: -14px, 13px, 0 rgb(0, 0, 0)
+
+}
+
+.input_search:active {
+
+    background-color: rgb(192, 192, 192);
+
+}
+
+.buttons {
+
+    position: absolute;
+    top: 89.5%;
+    bottom: 1%;
+    left: 67.5%;
+    width: 15%;
+    transform: translate(0, 4%);
+    display: flex;
+    gap: 3px;
+    
+}
+
+.button {
+
+    width: 45%;
+    padding: 1%;
+    border: 2px solid rgb(0, 0, 0);
+    border-radius: 5px;
+    font-size: clamp(3%, 1.3vw, 1rem);
+    font-weight: 400;
+    color: rgb(0, 0, 0);
+    background-color: rgb(192, 192, 192);
+
+}
+
+.button:active {
+
+    background-color: red;
+    box-shadow: inset -1px 1px 0 #222;
+    font-size: 0.4rem;
+
+}
+
+
+
+
